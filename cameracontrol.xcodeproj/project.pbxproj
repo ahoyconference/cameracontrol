@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7863EFCD1954945A00096CDB /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7863EFCC1954945A00096CDB /* libwebsockets.a */; };
+		7863EFCF1954947100096CDB /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7863EFCE1954947100096CDB /* libssl.dylib */; };
+		7863EFD11954947600096CDB /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7863EFD01954947600096CDB /* libcrypto.dylib */; };
+		7863EFD31954947C00096CDB /* libobjc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7863EFD21954947C00096CDB /* libobjc.dylib */; };
+		7863EFD51954948500096CDB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7863EFD41954948500096CDB /* CoreFoundation.framework */; };
+		7863EFD71954948F00096CDB /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7863EFD61954948F00096CDB /* IOKit.framework */; };
+		7863EFD91954949E00096CDB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7863EFD81954949E00096CDB /* libz.dylib */; };
+		78A81C5F19548FBA007AD841 /* libusb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A81C5E19548FBA007AD841 /* libusb.a */; };
+		78C0945C19548E66006B2EE2 /* cJSON.c in Sources */ = {isa = PBXBuildFile; fileRef = 78C0944F19548E66006B2EE2 /* cJSON.c */; };
+		78C0945D19548E66006B2EE2 /* log_syslog.c in Sources */ = {isa = PBXBuildFile; fileRef = 78C0945619548E66006B2EE2 /* log_syslog.c */; };
+		78C0945E19548E66006B2EE2 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 78C0945719548E66006B2EE2 /* log.c */; };
+		78C0945F19548E66006B2EE2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 78C0945819548E66006B2EE2 /* main.c */; };
+		78C0946019548E66006B2EE2 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 78C0945919548E66006B2EE2 /* Makefile */; };
+		78C0946119548E66006B2EE2 /* uvc.c in Sources */ = {isa = PBXBuildFile; fileRef = 78C0945A19548E66006B2EE2 /* uvc.c */; };
+		78C0946219548E66006B2EE2 /* websocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 78C0945B19548E66006B2EE2 /* websocket.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7869CEAB19548DD800351772 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7863EFCB1954944E00096CDB /* libwebsockets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libwebsockets.h; sourceTree = "<group>"; };
+		7863EFCC1954945A00096CDB /* libwebsockets.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebsockets.a; sourceTree = "<group>"; };
+		7863EFCE1954947100096CDB /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		7863EFD01954947600096CDB /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		7863EFD21954947C00096CDB /* libobjc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.dylib; path = usr/lib/libobjc.dylib; sourceTree = SDKROOT; };
+		7863EFD41954948500096CDB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7863EFD61954948F00096CDB /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		7863EFD81954949E00096CDB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7869CEAD19548DD800351772 /* cameracontrol */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cameracontrol; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A81C5E19548FBA007AD841 /* libusb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libusb.a; sourceTree = "<group>"; };
+		78A81C6019548FC5007AD841 /* libusb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libusb.h; sourceTree = "<group>"; };
+		78C0944F19548E66006B2EE2 /* cJSON.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cJSON.c; sourceTree = "<group>"; };
+		78C0945119548E66006B2EE2 /* cJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cJSON.h; sourceTree = "<group>"; };
+		78C0945219548E66006B2EE2 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		78C0945319548E66006B2EE2 /* log_syslog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log_syslog.h; sourceTree = "<group>"; };
+		78C0945419548E66006B2EE2 /* uvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uvc.h; sourceTree = "<group>"; };
+		78C0945519548E66006B2EE2 /* websocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = websocket.h; sourceTree = "<group>"; };
+		78C0945619548E66006B2EE2 /* log_syslog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log_syslog.c; sourceTree = "<group>"; };
+		78C0945719548E66006B2EE2 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		78C0945819548E66006B2EE2 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		78C0945919548E66006B2EE2 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		78C0945A19548E66006B2EE2 /* uvc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uvc.c; sourceTree = "<group>"; };
+		78C0945B19548E66006B2EE2 /* websocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = websocket.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7869CEAA19548DD800351772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7863EFD91954949E00096CDB /* libz.dylib in Frameworks */,
+				7863EFD71954948F00096CDB /* IOKit.framework in Frameworks */,
+				7863EFD51954948500096CDB /* CoreFoundation.framework in Frameworks */,
+				7863EFD31954947C00096CDB /* libobjc.dylib in Frameworks */,
+				7863EFD11954947600096CDB /* libcrypto.dylib in Frameworks */,
+				7863EFCF1954947100096CDB /* libssl.dylib in Frameworks */,
+				78A81C5F19548FBA007AD841 /* libusb.a in Frameworks */,
+				7863EFCD1954945A00096CDB /* libwebsockets.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7818069919548EF100018A66 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				7863EFCC1954945A00096CDB /* libwebsockets.a */,
+				7863EFCB1954944E00096CDB /* libwebsockets.h */,
+				78A81C5E19548FBA007AD841 /* libusb.a */,
+				78A81C6019548FC5007AD841 /* libusb.h */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		7869CEA419548DD800351772 = {
+			isa = PBXGroup;
+			children = (
+				7863EFD81954949E00096CDB /* libz.dylib */,
+				7863EFD61954948F00096CDB /* IOKit.framework */,
+				7863EFD41954948500096CDB /* CoreFoundation.framework */,
+				7863EFD21954947C00096CDB /* libobjc.dylib */,
+				7863EFD01954947600096CDB /* libcrypto.dylib */,
+				7863EFCE1954947100096CDB /* libssl.dylib */,
+				7818069919548EF100018A66 /* libs */,
+				7869CEAF19548DD800351772 /* cameracontrol */,
+				7869CEAE19548DD800351772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7869CEAE19548DD800351772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7869CEAD19548DD800351772 /* cameracontrol */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7869CEAF19548DD800351772 /* cameracontrol */ = {
+			isa = PBXGroup;
+			children = (
+				78C0944F19548E66006B2EE2 /* cJSON.c */,
+				78C0945019548E66006B2EE2 /* include */,
+				78C0945619548E66006B2EE2 /* log_syslog.c */,
+				78C0945719548E66006B2EE2 /* log.c */,
+				78C0945819548E66006B2EE2 /* main.c */,
+				78C0945919548E66006B2EE2 /* Makefile */,
+				78C0945A19548E66006B2EE2 /* uvc.c */,
+				78C0945B19548E66006B2EE2 /* websocket.c */,
+			);
+			path = cameracontrol;
+			sourceTree = "<group>";
+		};
+		78C0945019548E66006B2EE2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				78C0945119548E66006B2EE2 /* cJSON.h */,
+				78C0945219548E66006B2EE2 /* log.h */,
+				78C0945319548E66006B2EE2 /* log_syslog.h */,
+				78C0945419548E66006B2EE2 /* uvc.h */,
+				78C0945519548E66006B2EE2 /* websocket.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7869CEAC19548DD800351772 /* cameracontrol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7869CEB619548DD800351772 /* Build configuration list for PBXNativeTarget "cameracontrol" */;
+			buildPhases = (
+				7869CEA919548DD800351772 /* Sources */,
+				7869CEAA19548DD800351772 /* Frameworks */,
+				7869CEAB19548DD800351772 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cameracontrol;
+			productName = cameracontrol;
+			productReference = 7869CEAD19548DD800351772 /* cameracontrol */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7869CEA519548DD800351772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ahoy Conference";
+			};
+			buildConfigurationList = 7869CEA819548DD800351772 /* Build configuration list for PBXProject "cameracontrol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7869CEA419548DD800351772;
+			productRefGroup = 7869CEAE19548DD800351772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7869CEAC19548DD800351772 /* cameracontrol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7869CEA919548DD800351772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C0946119548E66006B2EE2 /* uvc.c in Sources */,
+				78C0946019548E66006B2EE2 /* Makefile in Sources */,
+				78C0946219548E66006B2EE2 /* websocket.c in Sources */,
+				78C0945F19548E66006B2EE2 /* main.c in Sources */,
+				78C0945E19548E66006B2EE2 /* log.c in Sources */,
+				78C0945C19548E66006B2EE2 /* cJSON.c in Sources */,
+				78C0945D19548E66006B2EE2 /* log_syslog.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7869CEB419548DD800351772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7869CEB519548DD800351772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7869CEB719548DD800351772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7869CEB819548DD800351772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7869CEA819548DD800351772 /* Build configuration list for PBXProject "cameracontrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7869CEB419548DD800351772 /* Debug */,
+				7869CEB519548DD800351772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7869CEB619548DD800351772 /* Build configuration list for PBXNativeTarget "cameracontrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7869CEB719548DD800351772 /* Debug */,
+				7869CEB819548DD800351772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7869CEA519548DD800351772 /* Project object */;
+}
